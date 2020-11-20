@@ -13,14 +13,13 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 /** This class should implement the ProductService.
- * This is because the method we that are exposed are defined in the ProductService.*/
+ * This is because the method we that are exposed are defined in the ProductService.
+  @CrossOrigin
+  @EnableFeignClients(basePackageClasses = ProductServiceProxy.class)
+ */
 @RestController
 @RefreshScope
-/**
-@CrossOrigin
-@EnableFeignClients(basePackageClasses = ProductServiceProxy.class)
 
- */
 @CrossOrigin
 @ComponentScan(basePackageClasses = ProductServiceProxy.class)
 public class ProductController implements ProductService {
@@ -29,11 +28,11 @@ public class ProductController implements ProductService {
     @Autowired
     ProductServiceProxy productServiceProxy;
 
-
+    /**
     public ProductController(ProductServiceProxy productServiceProxy) {
         this.productServiceProxy = productServiceProxy;
     }
-
+    */
 
 
 
