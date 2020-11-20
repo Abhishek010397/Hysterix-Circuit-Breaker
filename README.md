@@ -17,5 +17,5 @@ The architecture would consist of four microservices.
 
 Architecture:
 
-    ![alt text](https://www.munonye.com/microservices/wp-content/uploads/2020/05/Hystrix-Circuit-Breaker-Step-by-Step-with-Spring-Boot.jpg)
+    
     
