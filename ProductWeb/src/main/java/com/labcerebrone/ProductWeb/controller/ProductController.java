@@ -43,7 +43,7 @@ public class ProductController implements ProductService {
     }
 
 
-    @GetMapping("/productsweb/{productId}")
+    @GetMapping("/products/{productId}")
     public Product getProduct(@PathVariable("productId") String productId) {
         return productServiceProxy.getProduct(productId);
     }
