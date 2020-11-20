@@ -16,4 +16,4 @@ The architecture would consist of four microservices.
 
 Architecture:
 
-![alt text](https://github.com/Abhisek010397/Hysterix-Circuit-Breaker/blob/main/Hystrix-Fallback-Architecture.jpg?raw=true)
+![alt text](https://github.com/Abhishek010397/Hysterix-Circuit-Breaker/blob/main/Hystrix-Fallback-Architecture.jpg)
