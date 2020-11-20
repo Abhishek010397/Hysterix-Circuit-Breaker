@@ -13,8 +13,7 @@ The architecture would consist of four microservices.
     Secondary Server (ProductServer2 port 8082)
     Web API Application (ProductWeb port 8090)
     UI Application (ProductsUI port 8091)
-<<<<<<< HEAD
-=======
 
+Architecture:
 
->>>>>>> 89fdf1f976f25ee8c6d6bbbd6b8277b5c1514afb
+    ![alt text](https://github.com/Abhisek010397/Hysterix-Circuit-Breaker/blob/main/image.jpg?raw=true)
