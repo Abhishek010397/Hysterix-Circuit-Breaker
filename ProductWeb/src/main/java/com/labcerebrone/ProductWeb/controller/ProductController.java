@@ -21,6 +21,7 @@ import java.util.List;
 @EnableFeignClients(basePackageClasses = ProductServiceProxy.class)
 
  */
+@CrossOrigin
 @ComponentScan(basePackageClasses = ProductServiceProxy.class)
 public class ProductController implements ProductService {
 
@@ -36,13 +37,13 @@ public class ProductController implements ProductService {
 
 
 
-    @RequestMapping("/products")
+    @GetMapping("/products")
     public List<Product> getAllProducts() {
         return productServiceProxy.getAllProducts();
     }
 
 
-    @RequestMapping("/productsweb/{productId}")
+    @GetMapping("/productsweb/{productId}")
     public Product getProduct(@PathVariable("productId") String productId) {
         return productServiceProxy.getProduct(productId);
     }
